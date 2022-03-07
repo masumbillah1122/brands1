@@ -1,0 +1,23 @@
+{
+    "name": "brands",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "nodemon ./bin/www"
+    },
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "debug": "~2.6.9",
+        "express": "~4.16.1",
+        "express-fileupload": "^1.3.1",
+        "fs": "0.0.1-security",
+        "http-errors": "~1.6.3",
+        "mongoose": "^6.2.4",
+        "morgan": "~1.9.1",
+        "slugify": "^1.6.5",
+        "validatorjs": "^3.22.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
